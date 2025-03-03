@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Game Download Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="language-selector">
+        <button onclick="changeLanguage('en')" class="lang-btn active">English</button>
+        <button onclick="changeLanguage('es')" class="lang-btn">Español</button>
+        <button onclick="changeLanguage('fr')" class="lang-btn">Français</button>
+        <button onclick="changeLanguage('jp')" class="lang-btn">日本語</button>
+        <button onclick="changeLanguage('pt-br')" class="lang-btn">Português</button>
+    </nav>
+
+    <div class="hero" id="hero">
+        <div class="hero-content">
+            <h1 data-translate="title">Download Your Next Adventure</h1>
+            <p class="hero-subtitle" data-translate="subtitle">Experience gaming like never before</p>
+        </div>
+        <div class="hero-particles" id="particles-js"></div>
+    </div>
+    
+    <div class="content">
+        <div class="download-card">
+            <div class="download-progress">
+                <div class="progress-bar" id="downloadProgress"></div>
+            </div>
+            <h2 data-translate="ready">Ready to Begin?</h2>
+            <p data-translate="experience">Experience the game that's changing everything</p>
+            <a href="#" class="download-button" id="downloadBtn" data-translate="download">Download Now</a>
+            <p class="version-info">Version 2.0.0 | 2.5 GB</p>
+            <div class="download-stats">
+                <span id="downloadCount">150,000+</span>
+                <span data-translate="downloads">downloads</span>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon">🎮</div>
+                <h3 data-translate="graphics">Stunning Graphics</h3>
+                <p data-translate="graphics-desc">Immerse yourself in breathtaking visuals powered by next-gen technology</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">📖</div>
+                <h3 data-translate="story">Epic Storyline</h3>
+                <p data-translate="story-desc">Embark on an unforgettable journey through a rich, detailed world</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">🌐</div>
+                <h3 data-translate="multiplayer">Multiplayer</h3>
+                <p data-translate="multiplayer-desc">Connect with players worldwide in thrilling online battles</p>
+            </div>
+        </div>
+
+        <div class="system-requirements" data-aos="fade-up">
+            <h2 data-translate="requirements">System Requirements</h2>
+            <div class="requirements-grid">
+                <div class="requirement-item">
+                    <h4>OS</h4>
+                    <p>Windows 10/11<br>macOS 11+<br>Linux</p>
+                </div>
+                <div class="requirement-item">
+                    <h4 data-translate="processor">Processor</h4>
+                    <p>Intel i5/AMD Ryzen 5<br>or better</p>
+                </div>
+                <div class="requirement-item">
+                    <h4 data-translate="memory">Memory</h4>
+                    <p>8 GB RAM<br>16 GB Recommended</p>
+                </div>
+                <div class="requirement-item">
+                    <h4 data-translate="graphics-card">Graphics</h4>
+                    <p>NVIDIA GTX 1660<br>or equivalent</p>
+                </div>
+                <div class="requirement-item">
+                    <h4 data-translate="storage">Storage</h4>
+                    <p>5 GB available space<br>SSD Recommended</p>
+                </div>
+                <div class="requirement-item">
+                    <h4 data-translate="network">Network</h4>
+                    <p data-translate="network-desc">Broadband internet connection</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="translations.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
