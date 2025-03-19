@@ -1,7 +1,7 @@
 /* styles.css */
 :root {
-    --primary-color: #6c5ce7;
-    --secondary-color: #a29bfe;
+    --primary-color: #ff0000;
+    --secondary-color: #c77575;
     --accent-color: #fd79a8;
     --text-color: #2d3436;
     --bg-color: #f5f6fa;
@@ -132,4 +132,3 @@ body {
     font-size: 3em;
     margin-bottom: 20px;
 }
-
